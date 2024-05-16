@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload example with response</title>
+  </head>
+  <body>
+    <form method="post" enctype="multipart/form-data">
+      <input type="file" name="files[]" multiple />
+      <input type="submit" value="Upload Files" name="submit" />
+    </form>
+
+    <p id="data"></p>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
